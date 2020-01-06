@@ -131,7 +131,7 @@ public class IOUtils {
     public static long write(Reader reader, Writer writer, int bufferSize) throws IOException {
         int read;
         long total = 0;
-        char[] buf = new char[BUFFER_SIZE];
+        char[] buf = new char[bufferSize];
         while ((read = reader.read(buf)) != -1) {
             writer.write(buf, 0, read);
             total += read;
@@ -220,6 +220,17 @@ public class IOUtils {
             throw new IOException("File is null.");
         }
         writeLines(new FileOutputStream(file, true), lines);
+    }
+
+
+    public static void main(String[] args) throws IOException {
+        String[] strings = IOUtils.readLines(new File("C:\\Users\\12986\\Desktop\\file.txt"));
+
+
+        for (String string : strings) {
+            System.out.println(string);
+        }
+
     }
 
 }

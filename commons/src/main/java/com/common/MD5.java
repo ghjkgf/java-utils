@@ -1,5 +1,13 @@
 package com.common;
 
+/**
+ *
+ *  MD5 算法
+ *
+ *
+ * @date:2019/9/15 16:55
+ * @author: 574986060@qq.com
+ */
 public class MD5 {
     /*
      *四个链接变量
@@ -160,8 +168,6 @@ public class MD5 {
 
     private MD5() {
     }
-
-    ;
 
     public static void main(String[] args) {
         String str = MD5.getInstance().getMD5("12314");
