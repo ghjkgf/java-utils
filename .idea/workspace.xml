@@ -2,162 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3ddbbdb-0882-49ef-821a-499e8c97760d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/LimitedCacheMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/io/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/io/PropertiesParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/module/Tuple2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/net/HttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/net/HttpHeaders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/number/EncodeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/number/NumberUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/proxy/NotNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/proxy/NullProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/reflect/ClassScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/reflect/ReflectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/serial/SerializationUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/string/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/thread/ThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/time/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/time/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/time/NanosecondUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/time/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/test/java/com/common/collection/LRUCacheTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/test/java/com/common/io/CompressFileUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/test/java/com/common/io/FileUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/test/java/com/common/io/IOUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/test/java/com/common/net/HttpClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-commons/src/test/java/com/common/string/PeopleServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_0_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/LimitStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/net/URL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/reflect/SPIUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-commons/src/test/java/com/common/reflect/TestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-commons/src/test/java/com/common/reflect/TestJss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_msgpack_msgpack_0_6_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/java-commons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/collection/BlockingUniqueQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/BlockingUniqueQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/collection/CollectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/CollectionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/collection/ConcurrentHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/ConcurrentHashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/collection/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/collection/LimitedCacheMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/collection/SimplyObjectPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/common/Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/module/Assert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/common/MD5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/common/NumberUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/number/NumberObjectUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/common/Snowflake.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/number/Snowflake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/date/DateUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/date/TimeUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/file/CompressFileUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/file/FileUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/file/GuavaFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/file/IOUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/io/IOUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/file/ImageUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/limitflow/AbstractLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/AbstractLimiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/limitflow/CounterLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/CounterLimiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/limitflow/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/limitflow/GuavaRateLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/GuavaRateLimiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/limitflow/LeakyBucketLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/LeakyBucketLimiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/limitflow/RollingWindowFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/RollingWindowFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/limitflow/TokenBucketLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/TokenBucketLimiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/limitflow/module/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/module/Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/limitflow/module/FilterChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/module/FilterChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/limitflow/module/ServletRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/module/ServletRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/limitflow/module/ServletResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/module/ServletResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/module/MemoryObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/module/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/module/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/net/HttpUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/net/IpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/net/IPUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/reflect/ClassScanner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/reflect/ClassUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/reflect/ClassUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/serial/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/serial/JsonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/serial/MessagePackPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/serial/MessagePackPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/serial/SerializationUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/thread/NamedThreadFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/thread/NamedThreadFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/thread/NotThreadSafe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/thread/SchedulerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/thread/SchedulerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/thread/ThreadSafe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/test/java/com/serial/GenericityBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/test/java/com/common/serial/GenericityBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/test/java/com/serial/InnerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/test/java/com/common/serial/InnerBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/test/java/com/serial/MessagePackTestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/test/java/com/common/serial/MessagePackTestBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/test/java/com/serial/MessagePackTestBeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/test/java/com/common/serial/MessagePackTestBeanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/collection/BlockingUniqueQueue$Itr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/collection/BlockingUniqueQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/collection/CollectionUtils$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/collection/CollectionUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/collection/ConcurrentHashSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/collection/LRUCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/collection/LimitedCacheMap$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/collection/LimitedCacheMap$Element.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/collection/LimitedCacheMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/collection/SimplyObjectPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/common/Assert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/common/MD5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/common/NumberUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/common/Snowflake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/date/DateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/date/TimeUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/file/CompressFileUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/file/FileUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/file/IOUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/file/ImageUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/AbstractLimiter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/CounterLimiter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/CounterLimiter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/Demo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/Demo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/GuavaRateLimiter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/LeakyBucketLimiter$LeakyBucket$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/LeakyBucketLimiter$LeakyBucket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/LeakyBucketLimiter$Water.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/LeakyBucketLimiter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/RollingWindowFilter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/RollingWindowFilter$Slider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/RollingWindowFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/TokenBucketLimiter$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/TokenBucketLimiter$Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/TokenBucketLimiter$TokenBucket$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/TokenBucketLimiter$TokenBucket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/TokenBucketLimiter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/module/Filter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/module/FilterChain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/module/ServletRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/limitflow/module/ServletResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/module/MemoryObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/module/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/net/HttpUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/net/IpUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/reflect/ClassScanner$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/reflect/ClassScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/reflect/ClassUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/serial/JsonUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/serial/MessagePackPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/serial/SerializationUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/thread/NamedThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/thread/NotThreadSafe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/thread/SchedulerManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/thread/ThreadSafe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/test-classes/com/serial/GenericityBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/test-classes/com/serial/InnerBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/test-classes/com/serial/MessagePackTestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/test-classes/com/serial/MessagePackTestBeanTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-commons/java-commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/java-commons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-commons/src/main/java/com/common/io/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/io/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-commons/src/main/java/com/common/proxy/NullProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/proxy/NullProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-commons/src/main/java/com/common/serial/MessagePackPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-commons/src/main/java/com/common/time/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/main/java/com/common/time/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-commons/src/test/java/com/common/io/FileUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-commons/src/test/java/com/common/io/FileUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-commons/src/test/java/com/common/serial/GenericityBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-commons/src/test/java/com/common/serial/InnerBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-commons/src/test/java/com/common/serial/MessagePackTestBean.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/commons/target/" />
     <ignored path="$PROJECT_DIR$/java-commons/target/" />
@@ -167,60 +31,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="171">
-                <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/GuavaRateLimiter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/reflect/ReflectUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-              <folding>
-                <element signature="e#3941#3959#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/number/NumberUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="108" column="36" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/net/HttpClient.java">
+        <entry file="file://$PROJECT_DIR$/java-commons/src/test/java/com/common/io/FileUtilTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="223" column="54" selection-start-line="223" selection-start-column="54" selection-end-line="223" selection-end-column="54" />
+            <state relative-caret-position="266">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-commons/src/test/java/com/common/serial/MessagePackTestBeanTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -229,23 +69,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/string/StringUtils.java">
+        <entry file="file://$PROJECT_DIR$/java-commons/src/test/java/com/common/io/CompressFileUtilTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/LeakyBucketLimiter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
-              <folding>
-                <element signature="e#2122#2712#0" expanded="true" />
-                <element signature="e#2711#2712#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -253,24 +80,64 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-commons/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="65" />
+            <state relative-caret-position="-1596">
+              <caret line="29" column="26" selection-start-line="25" selection-start-column="7" selection-end-line="29" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/serial/MessagePackPool.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.12/commons-codec-1.12-sources.jar!/org/apache/commons/codec/binary/StringUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="-417">
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.12/commons-codec-1.12-sources.jar!/org/apache/commons/codec/language/Metaphone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.12/commons-codec-1.12-sources.jar!/org/apache/commons/codec/language/MatchRatingApproachEncoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.12/commons-codec-1.12-sources.jar!/org/apache/commons/codec/net/URLCodec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5642">
+              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.12/commons-codec-1.12-sources.jar!/org/apache/commons/codec/BinaryDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.12/commons-codec-1.12-sources.jar!/org/apache/commons/codec/binary/Hex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-100">
+              <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -304,17 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/commons/src/main/java/com/common/time/DateUtil.java" />
-        <option value="$PROJECT_DIR$/commons/src/main/java/com/common/time/TimeUtil.java" />
-        <option value="$PROJECT_DIR$/commons/src/main/java/com/common/thread/SchedulerManager.java" />
-        <option value="$PROJECT_DIR$/commons/src/main/java/com/common/time/NanosecondUtil.java" />
-        <option value="$PROJECT_DIR$/commons/src/main/java/com/common/time/MillisecondUtil.java" />
-        <option value="$PROJECT_DIR$/commons/src/main/java/com/common/net/IPUtil.java" />
-        <option value="$PROJECT_DIR$/commons/src/main/java/com/common/net/HttpHeaders.java" />
-        <option value="$PROJECT_DIR$/commons/src/main/java/com/common/net/HttpClient.java" />
-        <option value="$PROJECT_DIR$/commons/src/main/java/com/common/number/EncodeUtil.java" />
-        <option value="$PROJECT_DIR$/commons/src/main/java/com/common/file/PropertiesParser.java" />
-        <option value="$PROJECT_DIR$/commons/src/main/java/com/common/module/Pair.java" />
         <option value="$PROJECT_DIR$/commons/src/main/java/com/common/module/Assert.java" />
         <option value="$PROJECT_DIR$/commons/src/main/java/com/common/module/Tuple2.java" />
         <option value="$PROJECT_DIR$/commons/src/test/java/com/common/net/HttpClientTest.java" />
@@ -353,8 +209,19 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/java-commons/src/main/java/com/common/string/StringUtils.java" />
         <option value="$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/GuavaRateLimiter.java" />
-        <option value="$PROJECT_DIR$/java-commons/pom.xml" />
         <option value="$PROJECT_DIR$/java-commons/src/main/java/com/common/net/HttpClient.java" />
+        <option value="$PROJECT_DIR$/java-commons/src/main/java/com/common/reflect/Demo.java" />
+        <option value="$PROJECT_DIR$/java-commons/src/test/java/com/common/reflect/TestJss.java" />
+        <option value="$PROJECT_DIR$/java-commons/src/test/java/com/common/reflect/TestBean.java" />
+        <option value="$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/Stack.java" />
+        <option value="$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/LimitStack.java" />
+        <option value="$PROJECT_DIR$/java-commons/src/test/java/com/common/io/FileUtilTest.java" />
+        <option value="$PROJECT_DIR$/java-commons/src/main/java/com/common/io/FileUtil.java" />
+        <option value="$PROJECT_DIR$/java-commons/src/main/java/com/common/net/URL.java" />
+        <option value="$PROJECT_DIR$/java-commons/src/main/java/com/common/reflect/SPIUtil.java" />
+        <option value="$PROJECT_DIR$/java-commons/src/main/java/com/common/proxy/NullProxy.java" />
+        <option value="$PROJECT_DIR$/java-commons/src/main/java/com/common/time/DateUtil.java" />
+        <option value="$PROJECT_DIR$/java-commons/pom.xml" />
       </list>
     </option>
   </component>
@@ -367,22 +234,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java-commons" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -390,8 +242,8 @@
     <option name="jreName" value="1.8.0_221" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-140" />
-    <option name="y" value="120" />
+    <option name="x" value="95" />
+    <option name="y" value="195" />
     <option name="width" value="1555" />
     <option name="height" value="840" />
   </component>
@@ -404,7 +256,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -466,7 +317,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="serial" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-Commons" type="b2602c69:ProjectViewProjectNode" />
@@ -477,70 +328,84 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="number" type="462c0819:PsiDirectoryNode" />
+              <item name="time" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-Commons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Java-Commons" type="462c0819:PsiDirectoryNode" />
+              <item name="java-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-Commons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_221 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Java-Commons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_221 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-Commons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_221 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Java-Commons" type="462c0819:PsiDirectoryNode" />
+              <item name="java-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-Commons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_221 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Java-Commons" type="462c0819:PsiDirectoryNode" />
+              <item name="java-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Commons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Commons" type="462c0819:PsiDirectoryNode" />
+              <item name="java-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Commons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Commons" type="462c0819:PsiDirectoryNode" />
+              <item name="java-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Commons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Commons" type="462c0819:PsiDirectoryNode" />
+              <item name="java-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="serial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Commons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-Commons" type="462c0819:PsiDirectoryNode" />
+              <item name="java-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Commons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="Java-Commons" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8.0_221 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-Commons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_221 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="atomic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-Commons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8.0_221 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -559,11 +424,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.common.io" />
       <recent name="com.common.string" />
       <recent name="com.common.file" />
       <recent name="com.common.net" />
       <recent name="com.common.collection" />
-      <recent name="com.serial" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.common" />
@@ -588,13 +453,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumberUtil">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.common.time.Demo" />
+  <component name="RunManager" selected="JUnit.FileUtilTest.recordFile">
+    <configuration name="FileUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.common.io.FileUtilTest" />
       <module name="java-commons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.common.time.*" />
+          <option name="PATTERN" value="com.common.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -602,8 +467,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LimitedCacheMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.common.collection.LimitedCacheMap" />
+    <configuration name="LimitStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.common.collection.LimitStack" />
       <module name="java-commons" />
       <extension name="coverage">
         <pattern>
@@ -615,21 +480,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.common.number.NumberUtil" />
-      <module name="java-commons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.common.number.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReflectUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.common.reflect.ReflectUtils" />
+    <configuration name="TestBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.common.reflect.TestBean" />
       <module name="java-commons" />
       <extension name="coverage">
         <pattern>
@@ -641,26 +493,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.common.string.StringUtils" />
+    <configuration name="FileUtilTest.recordFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-commons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.common.proxy.*" />
+          <option name="PATTERN" value="com.common.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.common.io" />
+      <option name="MAIN_CLASS_NAME" value="com.common.io.FileUtilTest" />
+      <option name="METHOD_NAME" value="recordFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJss.testJSS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-commons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.common.reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.common.reflect" />
+      <option name="MAIN_CLASS_NAME" value="com.common.reflect.TestJss" />
+      <option name="METHOD_NAME" value="testJSS" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumberUtil" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.ReflectUtils" />
-        <item itemvalue="Application.LimitedCacheMap" />
-        <item itemvalue="Application.StringUtils" />
+        <item itemvalue="JUnit.FileUtilTest.recordFile" />
+        <item itemvalue="Application.FileUtilTest" />
+        <item itemvalue="Application.LimitStack" />
+        <item itemvalue="Application.TestBean" />
+        <item itemvalue="JUnit.TestJss.testJSS" />
       </list>
     </recent_temporary>
   </component>
@@ -698,58 +569,64 @@
       <workItem from="1580666175889" duration="825000" />
       <workItem from="1580707292263" duration="254000" />
       <workItem from="1580709281933" duration="15032000" />
-      <workItem from="1580788063915" duration="15424000" />
+      <workItem from="1580788063915" duration="16723000" />
+      <workItem from="1580998820722" duration="9000" />
+      <workItem from="1581068127401" duration="5226000" />
+      <workItem from="1581244051394" duration="6698000" />
+      <workItem from="1581682150461" duration="1441000" />
+      <workItem from="1581835917844" duration="606000" />
+      <workItem from="1582101347130" duration="2470000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PeopleServiceImplTest_echoPeople - 2020.02.04 at 15h 50m 26s.xml">
-      <configuration name="PeopleServiceImplTest.echoPeople" configurationId="JUnit" />
+    <history-entry file="TestJss_testJSS - 2020.02.04 at 17h 53m 47s.xml">
+      <configuration name="TestJss.testJSS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeopleServiceImplTest_echoPeople - 2020.02.04 at 15h 50m 37s.xml">
-      <configuration name="PeopleServiceImplTest.echoPeople" configurationId="JUnit" />
+    <history-entry file="TestJss_testJSS - 2020.02.04 at 17h 53m 59s.xml">
+      <configuration name="TestJss.testJSS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeopleServiceImplTest_echoPeople - 2020.02.04 at 15h 51m 07s.xml">
-      <configuration name="PeopleServiceImplTest.echoPeople" configurationId="JUnit" />
+    <history-entry file="TestJss_testJSS - 2020.02.04 at 17h 55m 28s.xml">
+      <configuration name="TestJss.testJSS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeopleServiceImplTest_echoPeople - 2020.02.04 at 15h 53m 40s.xml">
-      <configuration name="PeopleServiceImplTest.echoPeople" configurationId="JUnit" />
+    <history-entry file="TestJss_testJSS - 2020.02.04 at 17h 55m 42s.xml">
+      <configuration name="TestJss.testJSS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeopleServiceImplTest_echoPeople - 2020.02.04 at 15h 54m 33s.xml">
-      <configuration name="PeopleServiceImplTest.echoPeople" configurationId="JUnit" />
+    <history-entry file="TestJss_testJSS - 2020.02.04 at 17h 55m 49s.xml">
+      <configuration name="TestJss.testJSS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeopleServiceImplTest_echoPeople - 2020.02.04 at 16h 12m 51s.xml">
-      <configuration name="PeopleServiceImplTest.echoPeople" configurationId="JUnit" />
+    <history-entry file="TestJss_testJSS - 2020.02.04 at 17h 56m 14s.xml">
+      <configuration name="TestJss.testJSS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeopleServiceImplTest_echoPeople - 2020.02.04 at 16h 13m 35s.xml">
-      <configuration name="PeopleServiceImplTest.echoPeople" configurationId="JUnit" />
+    <history-entry file="TestJss_testJSS - 2020.02.04 at 17h 56m 33s.xml">
+      <configuration name="TestJss.testJSS" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeopleServiceImplTest_echoPeople - 2020.02.04 at 16h 13m 48s.xml">
-      <configuration name="PeopleServiceImplTest.echoPeople" configurationId="JUnit" />
+    <history-entry file="FileUtilTest_recordFile - 2020.02.14 at 20h 11m 08s.xml">
+      <configuration name="FileUtilTest.recordFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeopleServiceImplTest_echoPeople - 2020.02.04 at 16h 16m 08s.xml">
-      <configuration name="PeopleServiceImplTest.echoPeople" configurationId="JUnit" />
+    <history-entry file="FileUtilTest_recordFile - 2020.02.14 at 20h 21m 02s.xml">
+      <configuration name="FileUtilTest.recordFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeopleServiceImplTest_testNull - 2020.02.04 at 16h 16m 28s.xml">
-      <configuration name="PeopleServiceImplTest.testNull" configurationId="JUnit" />
+    <history-entry file="FileUtilTest_recordFile - 2020.02.19 at 17h 02m 25s.xml">
+      <configuration name="FileUtilTest.recordFile" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87045000" />
+    <option name="totallyTimeSpent" value="104794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976744" visible="true" weight="0.3264075" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976744" visible="true" weight="0.27882037" />
       <window_info id="Structure" order="1" sideWeight="0.5023256" side_tool="true" weight="0.16420911" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24860336" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43435755" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29748604" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4217877" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -758,13 +635,13 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.083798885" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.19972067" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3297587" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" x="0" y="0" width="338" height="648" id="Documentation" order="7" side_tool="true" weight="0.32908848" />
     </layout>
@@ -807,6 +684,14 @@
           <line>308</line>
           <properties />
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/LimitStack.java</url>
+          <line>94</line>
+          <properties method="hasNext">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -861,423 +746,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-commons/target/classes/com/common/string/StringUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#4074#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/target/classes/com/common/string/People.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#2132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/target/classes/com/common/string/Demo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="728" column="75" selection-start-line="728" selection-start-column="58" selection-end-line="728" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/reflect/InvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/annotation/Target.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="76" selection-start-line="76" selection-end-line="76" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/annotation/ElementType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="109" column="12" selection-start-line="109" selection-start-column="4" selection-end-line="109" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/reflect/Parameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="227" column="75" lean-forward="true" selection-start-line="227" selection-start-column="6" selection-end-line="227" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar!/lombok/NonNull.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="13" column="119" selection-start-line="13" selection-start-column="111" selection-end-line="13" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/common/string/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/common/string/PeopleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/function/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/common/string/PeopleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/common/string/PeopleDo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="263" column="26" selection-start-line="263" selection-start-column="26" selection-end-line="263" selection-end-column="26" />
-          <folding>
-            <element signature="e#8972#8973#0" expanded="true" />
-            <element signature="e#9006#9007#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-          <folding>
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#1711#1712#0" expanded="true" />
-            <element signature="e#2998#2999#0" expanded="true" />
-            <element signature="e#3042#3043#0" expanded="true" />
-            <element signature="e#3486#3487#0" expanded="true" />
-            <element signature="e#3544#3545#0" expanded="true" />
-            <element signature="e#4242#4243#0" expanded="true" />
-            <element signature="e#4278#4279#0" expanded="true" />
-            <element signature="e#8628#8629#0" expanded="true" />
-            <element signature="e#8680#8681#0" expanded="true" />
-            <element signature="e#9141#9142#0" expanded="true" />
-            <element signature="e#9199#9200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/stream/AbstractPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="229" column="32" selection-start-line="229" selection-start-column="32" selection-end-line="229" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/stream/ReferencePipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="478" column="20" selection-start-line="478" selection-start-column="20" selection-end-line="478" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="646" column="16" selection-start-line="646" selection-start-column="16" selection-end-line="646" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9-sources.jar!/org/apache/commons/lang3/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="3219" column="27" selection-start-line="3219" selection-start-column="27" selection-end-line="3219" selection-end-column="27" />
-          <folding>
-            <element signature="e#7787#7788#0" expanded="true" />
-            <element signature="e#7840#7841#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="410" column="60" selection-start-line="410" selection-start-column="60" selection-end-line="410" selection-end-column="60" />
-          <folding>
-            <element signature="e#10361#10362#0" expanded="true" />
-            <element signature="e#10388#10389#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/test/java/com/common/string/PeopleServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/LimitedCacheMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-          <folding>
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#3290#3291#0" expanded="true" />
-            <element signature="e#3352#3353#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="563" column="6" selection-start-line="563" selection-start-column="6" selection-end-line="563" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#3190#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9-sources.jar!/org/apache/commons/lang3/ArrayUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91086">
-          <caret line="4844" column="26" selection-start-line="4844" selection-start-column="26" selection-end-line="4844" selection-end-column="26" />
-          <folding>
-            <element signature="e#187591#187592#0" expanded="true" />
-            <element signature="e#187635#187636#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/ConcurrentHashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1401">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/reflect/ClassUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3409#3410#0" expanded="true" />
-            <element signature="e#3455#3456#0" expanded="true" />
-            <element signature="e#5162#5163#0" expanded="true" />
-            <element signature="e#5217#5218#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/reflect/ClassScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/proxy/NotNull.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/proxy/NullProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/serial/SerializationUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/number/EncodeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/common/number/MD5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3430">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#5690#5691#0" expanded="true" />
-            <element signature="e#5739#5740#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/number/NumberObjectUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/src/main/java/com/common/number/OtherDigestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/number/Snowflake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/time/People.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/atomic/AtomicIntegerFieldUpdater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/time/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/LeakyBucketLimiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
-          <folding>
-            <element signature="e#2122#2712#0" expanded="true" />
-            <element signature="e#2711#2712#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/number/NumberUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="108" column="36" selection-start-line="108" selection-start-column="36" selection-end-line="108" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/string/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/GuavaRateLimiter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1298,30 +767,367 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/serial/MessagePackPool.java">
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/time/People.java" />
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/reflect/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/number/NumberUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        <state relative-caret-position="2090">
+          <caret line="110" column="35" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/net/HttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4123">
+          <caret line="223" column="54" selection-start-line="223" selection-start-column="54" selection-end-line="223" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/limitflow/LeakyBucketLimiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/test/java/com/common/reflect/TestJss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/pom.xml">
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/thread/NamedThreadFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="65" />
+        <state relative-caret-position="418">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/net/HttpClient.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Deque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="223" column="54" selection-start-line="223" selection-start-column="54" selection-end-line="223" selection-end-column="54" />
+        <state relative-caret-position="-2686">
+          <caret line="192" column="35" lean-forward="true" selection-start-line="192" selection-start-column="35" selection-end-line="192" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA-sources.jar!/javassist/util/proxy/ProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12388">
+          <caret line="693" column="19" selection-start-line="693" selection-start-column="19" selection-end-line="693" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/thread/SchedulerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/thread/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5833">
+          <caret line="355" column="19" selection-start-line="355" selection-start-column="19" selection-end-line="355" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/test/java/com/common/reflect/TestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/LinkedTransferQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
+          <folding>
+            <element signature="e#48689#48690#0" expanded="true" />
+            <element signature="e#48728#48729#0" expanded="true" />
+            <element signature="e#52836#52837#0" expanded="true" />
+            <element signature="e#52884#52885#0" expanded="true" />
+            <element signature="e#54293#54294#0" expanded="true" />
+            <element signature="e#54331#54332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/LimitedCacheMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+          <folding>
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2007#2008#0" expanded="true" />
+            <element signature="e#2050#2051#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/io/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3667">
+          <caret line="205" column="13" selection-start-line="205" selection-start-column="13" selection-end-line="205" selection-end-column="13" />
+          <folding>
+            <element signature="e#5553#5554#0" expanded="true" />
+            <element signature="e#5607#5608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="141" column="5" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/collection/LimitStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2299">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/target/classes/com/common/collection/LimitStack.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15143">
+          <caret line="830" selection-start-line="830" selection-end-line="830" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2793">
+          <caret line="180" column="12" selection-start-line="180" selection-start-column="12" selection-end-line="180" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/string/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/net/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#53146#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/reflect/SPIUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/proxy/NotNull.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/proxy/NullProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#355#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/time/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-579">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/main/java/com/common/serial/MessagePackPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/test/java/com/common/serial/MessagePackTestBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-394">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/test/java/com/common/serial/InnerBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/test/java/com/common/serial/GenericityBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/test/java/com/common/serial/MessagePackTestBeanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.12/commons-codec-1.12-sources.jar!/org/apache/commons/codec/binary/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-417">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.12/commons-codec-1.12-sources.jar!/org/apache/commons/codec/language/Metaphone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.12/commons-codec-1.12-sources.jar!/org/apache/commons/codec/language/MatchRatingApproachEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.12/commons-codec-1.12-sources.jar!/org/apache/commons/codec/net/URLCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5642">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.12/commons-codec-1.12-sources.jar!/org/apache/commons/codec/BinaryDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.12/commons-codec-1.12-sources.jar!/org/apache/commons/codec/binary/Hex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1596">
+          <caret line="29" column="26" selection-start-line="25" selection-start-column="7" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/test/java/com/common/io/CompressFileUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-commons/src/test/java/com/common/io/FileUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>

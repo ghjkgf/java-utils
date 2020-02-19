@@ -201,7 +201,7 @@ public class FileUtil {
     public static void recordFile(File dir, Predicate<File> filter, List<File> files) {
         if (dir.isDirectory()) {
             File[] file = dir.listFiles();
-            if (file == null) {
+            if (file == null || file.length == 0) {
                 return;
             }
             for (File f : file) {
@@ -214,6 +214,18 @@ public class FileUtil {
         }
     }
 
+
+    /**
+     * 记录文件夹文件 , 递归实现, 也可以用栈来实现,默认全部通过
+     *
+     * @param dir   文件夹
+     * @param files 保存文件位置
+     */
+    public static void recordFile(File dir, List<File> files) {
+        recordFile(dir, DEFAULT_FILTER, files);
+    }
+
+    public static final Predicate<File> DEFAULT_FILTER = file -> true;
 
     /**
      * SNAPPY 算法

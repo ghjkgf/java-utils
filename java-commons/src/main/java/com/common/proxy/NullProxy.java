@@ -18,6 +18,7 @@ public class NullProxy<T> {
         this.proxyBean = proxy;
     }
 
+    @SuppressWarnings("all")
     public T getProxy() throws Exception {
         // 判断前置逻辑
         if (proxyBean == null) {
