@@ -1,6 +1,6 @@
 package com.common.io;
 
-import org.xerial.snappy.Snappy;
+//import org.xerial.snappy.Snappy;
 
 import java.io.*;
 import java.nio.ByteBuffer;
@@ -230,21 +230,21 @@ public class FileUtil {
     /**
      * SNAPPY 算法
      */
-    public static final Function<byte[], byte[]> SNAPPY_UNCOMPRESS = bytes -> {
-        try {
-            return Snappy.uncompress(bytes);
-        } catch (IOException e) {
-            throw new RuntimeException("转码错误");
-        }
-    };
+//    public static final Function<byte[], byte[]> SNAPPY_UNCOMPRESS = bytes -> {
+//        try {
+//            return Snappy.uncompress(bytes);
+//        } catch (IOException e) {
+//            throw new RuntimeException("转码错误");
+//        }
+//    };
 
-    public static final Function<byte[], byte[]> SNAPPY_COMPRESS = bytes -> {
-        try {
-            return Snappy.uncompress(bytes);
-        } catch (IOException e) {
-            throw new RuntimeException("转码错误");
-        }
-    };
+//    public static final Function<byte[], byte[]> SNAPPY_COMPRESS = bytes -> {
+//        try {
+//            return Snappy.compress(bytes);
+//        } catch (IOException e) {
+//            throw new RuntimeException("转码错误");
+//        }
+//    };
 
     /**
      * GZIP 算法

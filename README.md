@@ -36,7 +36,25 @@ mvn install:install-file -Dfile=commons-1.0.0.jar -DgroupId=com.common -Dartifac
 
 ### 序列化工具
 
+> ​	这个在自己做项目 , 经常会遇到选型. 
+
+#### Protobuf
+
+伟大的protobuf 提供了 高性能的序列化.  我们可以直接使用  
+
+链接 : [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/)
+
+```java
+<dependency>
+  <groupId>com.google.protobuf</groupId>
+  <artifactId>protobuf-java</artifactId>
+  <version>3.11.0</version>
+</dependency>
+```
+
 #### FastJSON
+
+> ​	BUG 最多的. 项目之一. 
 
 链接 :  https://github.com/alibaba/fastjson
 
@@ -160,6 +178,8 @@ https://msgpack.org/
 
 #### javassist
 
+> ​	这个我觉得比较简单上手 ,  如果真正是自己操作字节码的话. 
+
 ```java
 <dependency>
     <groupId>org.javassist</groupId>
@@ -240,6 +260,18 @@ log4j.appender.LOGFILE.layout=org.apache.log4j.PatternLayout
 log4j.appender.LOGFILE.layout.ConversionPattern=%d{ISO8601} %-6r [%6.6t] %-5p %30.30c %x - %m\n
 ```
 
+#### Struts-Log4j
+
+> ​	可以看看我这篇文章 : [https://anthony-dong.github.io/post/YVlL69JfN/]( https://anthony-dong.github.io/post/YVlL69JfN/)  , 介绍了如何使用. 
+
+```xml
+<dependency>
+    <groupId>structlog4j</groupId>
+    <artifactId>structlog4j-api</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 ### 测试
 
 #### junit 
@@ -252,6 +284,95 @@ log4j.appender.LOGFILE.layout.ConversionPattern=%d{ISO8601} %-6r [%6.6t] %-5p %3
     <artifactId>junit</artifactId>
     <version>4.12</version>
 </dependency>
+```
+
+
+
+####  MockITO 
+
+> ​	这个解决了依赖的问题. 很好地做了隔离性. 
+
+```xml
+<!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+<dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-core</artifactId>
+    <version>3.0.0</version>
+    <scope>test</scope>
+</dependency>
+```
+
+
+
+### Swagger-UI
+
+我觉得是Spring项目中 , 必不可少的东西. 在测试环境下的. 
+
+依赖 :  我是用的是V2版本 . 
+
+```xml
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger-ui</artifactId>
+    <version>2.9.2</version>
+</dependency>
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger2</artifactId>
+    <version>2.9.2</version>
+</dependency>
+```
+
+JavaCode, 告诉你如何加入依赖. 
+
+```java
+package com.example.springswagger.swagger;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import springfox.documentation.builders.ApiInfoBuilder;
+import springfox.documentation.builders.PathSelectors;
+import springfox.documentation.builders.RequestHandlerSelectors;
+import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.Contact;
+import springfox.documentation.spi.DocumentationType;
+import springfox.documentation.spring.web.plugins.Docket;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+/**
+ * swagger
+ *
+ * @date:2020/4/3 14:37
+ * @author: <a href='mailto:fanhaodong516@qq.com'>Anthony</a>
+ */
+@Configuration
+@EnableSwagger2
+public class SwaggerConfig {
+
+    /**
+     * 访问接口在 "com.example.springswagger.controller" 中
+     */
+    @Bean
+    public Docket api() {
+        return new Docket(DocumentationType.SWAGGER_2)
+                .select()
+                .apis(RequestHandlerSelectors.basePackage("com.example.springswagger.controller"))
+                .paths(PathSelectors.any())
+                .build()
+                .apiInfo(apiEndPointsInfo())
+                .useDefaultResponseMessages(false);
+    }
+
+    private ApiInfo apiEndPointsInfo() {
+        return new ApiInfoBuilder().title("REST API")
+                .description("Spring Swaager2 REST API")
+                .contact(new Contact("anthony", "https://github.com/Anthony-Dong", "574986060@qq.com"))
+                .license("The Apache License")
+                .licenseUrl("https://opensource.org/licenses/MIT")
+                .version("V1")
+                .build();
+    }
+}
 ```
 
 

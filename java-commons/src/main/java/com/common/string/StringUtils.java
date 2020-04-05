@@ -24,7 +24,7 @@ public final class StringUtils {
      * @return String.
      */
     public static String join(String[] array) {
-        if (array==null||array.length==0) {
+        if (array == null || array.length == 0) {
             return EMPTY_STRING;
         }
         StringBuilder sb = new StringBuilder();
@@ -194,4 +194,14 @@ public final class StringUtils {
         return list.toArray(EMPTY_STRING_ARRAY);
     }
 
+    /**
+     * 空检验
+     */
+    public static boolean isNotBlack(String str) {
+        return str != null && str.length() != 0;
+    }
+
+    public static boolean isBlack(String str) {
+        return str == null || str.length() == 0;
+    }
 }
