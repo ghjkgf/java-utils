@@ -1,3 +1,5 @@
-/java-commons/target
 *.log
-*.class
+.idea
+java-commons/target
+java-commons/java-commons.iml
+java-commons/src/test/java:

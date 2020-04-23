@@ -48,7 +48,7 @@ public final class StringUtils {
      * char 类型 , 是否保留空.默认保留.
      */
     public static String[] split(final String str, final char delim) {
-        return split(str, delim, true);
+        return split(str, delim, false);
     }
 
 
@@ -96,7 +96,7 @@ public final class StringUtils {
      * 分割字符串方法.  引用自 Commons long 3
      */
     public static String[] split(final String str, final String separatorChars) {
-        return split(str, separatorChars, str.length(), true);
+        return split(str, separatorChars, str.length(), false);
     }
 
     /**
