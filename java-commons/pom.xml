@@ -30,11 +30,11 @@
 
 
         <!--编码解码用的   commons-codec-->
-         <!--<dependency>-->
-             <!--<groupId>commons-codec</groupId>-->
-             <!--<artifactId>commons-codec</artifactId>-->
-             <!--<version>1.12</version>-->
-         <!--</dependency>-->
+        <!--<dependency>-->
+        <!--<groupId>commons-codec</groupId>-->
+        <!--<artifactId>commons-codec</artifactId>-->
+        <!--<version>1.12</version>-->
+        <!--</dependency>-->
 
         <!-- 文件压缩 , 压缩日志比较好-->
         <dependency>
@@ -45,9 +45,9 @@
 
         <!-- 图片压缩 -->
         <!--<dependency>-->
-            <!--<groupId>net.coobird</groupId>-->
-            <!--<artifactId>thumbnailator</artifactId>-->
-            <!--<version>0.4.8</version>-->
+        <!--<groupId>net.coobird</groupId>-->
+        <!--<artifactId>thumbnailator</artifactId>-->
+        <!--<version>0.4.8</version>-->
         <!--</dependency>-->
 
         <!-- LOMBOX-->
@@ -68,9 +68,9 @@
 
         <!-- 序列化工具 msgpack  推荐 -->
         <!--<dependency>-->
-            <!--<groupId>org.msgpack</groupId>-->
-            <!--<artifactId>msgpack</artifactId>-->
-            <!--<version>0.6.12</version>-->
+        <!--<groupId>org.msgpack</groupId>-->
+        <!--<artifactId>msgpack</artifactId>-->
+        <!--<version>0.6.12</version>-->
         <!--</dependency>-->
 
         <!-- Java 字节码操作的包, 类似于 ASM 和 CGLib-->
@@ -83,20 +83,18 @@
         <!-- 工具包   commons-lang3 推荐-->
 
         <!--<dependency>-->
-            <!--<groupId>org.apache.commons</groupId>-->
-            <!--<artifactId>commons-lang3</artifactId>-->
-            <!--<version>3.9</version>-->
+        <!--<groupId>org.apache.commons</groupId>-->
+        <!--<artifactId>commons-lang3</artifactId>-->
+        <!--<version>3.9</version>-->
         <!--</dependency>-->
 
 
         <!-- 工具包   guava 推荐-->
         <!--<dependency>-->
-            <!--<groupId>com.google.guava</groupId>-->
-            <!--<artifactId>guava</artifactId>-->
-            <!--<version>28.0-jre</version>-->
+        <!--<groupId>com.google.guava</groupId>-->
+        <!--<artifactId>guava</artifactId>-->
+        <!--<version>28.0-jre</version>-->
         <!--</dependency>-->
-
-
 
 
         <!-- 日志 sl4j-->
@@ -108,9 +106,9 @@
 
         <!-- LOG4J -->
         <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-log4j12</artifactId>
-        <version>1.7.21</version>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.21</version>
         </dependency>
 
         <!--测试包-->

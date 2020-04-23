@@ -188,7 +188,7 @@ https://msgpack.org/
 </dependency
 ```
 
-### 文件操作工具
+### 文件操作工具（格式操作）
 
 #### Snappy 
 
@@ -212,6 +212,19 @@ https://msgpack.org/
     <artifactId>thumbnailator</artifactId>
     <version>0.4.8</version>
 </dependency>
+```
+
+### easyexcel
+
+> ​	一个好用的excel工具，阿里开源的，[https://alibaba-easyexcel.github.io/quickstart/write.html](https://alibaba-easyexcel.github.io/quickstart/write.html 
+
+```xml
+  <!-- https://mvnrepository.com/artifact/com.alibaba/easyexcel -->
+  <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>easyexcel</artifactId>
+      <version>2.1.6</version>
+  </dependency>
 ```
 
 
