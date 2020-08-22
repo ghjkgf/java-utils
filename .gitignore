@@ -3,3 +3,4 @@
 java-commons/target
 java-commons/java-commons.iml
 java-commons/src/test/java:
+.DS_Store
