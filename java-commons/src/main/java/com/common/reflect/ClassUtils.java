@@ -28,13 +28,13 @@ import java.util.Set;
  * 引用自 阿里的Dubbo框架
  */
 public final class ClassUtils {
-    private ClassUtils() {
+    public ClassUtils() {
     }
 
     /**
      * Suffix for array class names: "[]"
      */
-    public static final String ARRAY_SUFFIX = "[]";
+    private static final String ARRAY_SUFFIX = "[]";
     /**
      * Prefix for internal array class names: "[L"
      */

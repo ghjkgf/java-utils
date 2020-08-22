@@ -4,6 +4,7 @@ import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 日期工具类
@@ -49,6 +50,7 @@ public class DateUtil {
      * @return 字符串
      */
     public static String formatDate(Date date, DateTimeFormatter formatter) {
+
         LocalDateTime time = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDateTime();
         return time.format(formatter);
     }
